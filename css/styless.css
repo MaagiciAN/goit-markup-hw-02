@@ -5,6 +5,7 @@
     --primary-background-color: #FFFFFF;
     --logo-first-color: #4d5ae5;
     --logo-second-color: #2e2f42;
+    --address-color: #434455; 
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -36,9 +37,17 @@ body {
     letter-spacing: 0.02em;
     color: var(--logo-second-color);
 }
-.link:hover {
+.link:hover,
+.link:focus {
     color: #404bbf;
 }
 .header-address {
     font-style: normal;
+}
+.header-address-list {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--address-color);
+
 }
