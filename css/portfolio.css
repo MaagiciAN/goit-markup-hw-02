@@ -1,0 +1,50 @@
+:root {
+    --body-color: #434455;
+    --fist-logo-color: #4d5ae5;
+    --second-logo-color: #2e2f42;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--body-color);
+}
+.link {
+    text-decoration: none;
+
+}
+.list {
+    list-style: none;
+}
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--fist-logo-color);
+} 
+.header-second-logo {
+    color: var(--second-logo-color);
+}
+.header-bar {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--logo-second-color);
+}
+.link:hover,
+.link:focus {
+    color: #404bbf;
+}
+.header-address {
+    font-style: normal;
+}
+
+.header-address-list {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--address-color);
+
+}
