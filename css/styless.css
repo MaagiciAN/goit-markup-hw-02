@@ -11,8 +11,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
-    
+    background-color: #FFFFFF;  
 }
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -29,7 +28,6 @@ body {
 }
 .header-second-logo {
     color: var(--logo-second-color);
-
 }
 .header-bar {
     font-weight: 500;
@@ -46,17 +44,17 @@ body {
     font-style: normal;
 }
 .header-address-list {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--address-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--address-color);
 
 }
 .list {
     list-style: none;
 }
 .hero-section {
-    background-color: 
+    background-color: var(--section-background-color); 
 }
 .hero-header {
     font-size: 56px;
@@ -80,5 +78,15 @@ color: var(--address-color);
     background-color: #404BBF;
 }
 .features-heading {
-
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--logo-second-color);
+}
+.features-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
 }
