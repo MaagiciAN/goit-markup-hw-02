@@ -80,3 +80,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--body-color);
 }
+.footer-item {
+    background-color: var(--second-logo-color);
+}
