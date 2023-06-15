@@ -1,0 +1,44 @@
+:root {
+    --primary-font: "Roboto",
+        sans-serif;
+    --primary-color: #434455;
+    --primary-background-color: #FFFFFF;
+    --logo-first-color: #4d5ae5;
+    --logo-second-color: #2e2f42;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    
+}
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800; 
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-first-color);
+}
+.link {
+    text-decoration: none;
+
+}
+.header-second-logo {
+    color: var(--logo-second-color);
+
+}
+.header-bar {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--logo-second-color);
+}
+.link:hover {
+    color: #404bbf;
+}
+.header-address {
+    font-style: normal;
+}
