@@ -5,7 +5,8 @@
     --primary-background-color: #FFFFFF;
     --logo-first-color: #4d5ae5;
     --logo-second-color: #2e2f42;
-    --address-color: #434455; 
+    --address-color: #434455;
+    --section-background-color: #2e2f42;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -53,4 +54,28 @@ color: var(--address-color);
 }
 .list {
     list-style: none;
+}
+.hero-section {
+    background-color: 
+}
+.hero-header {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.bttn-hero {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.bttn-hero:hover,
+.bttn-hero:focus {
+    background-color: #404BBF;
 }
