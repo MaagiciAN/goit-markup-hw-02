@@ -3,6 +3,9 @@
     --fist-logo-color: #4d5ae5;
     --second-logo-color: #2e2f42;
     --address-color: #434455;
+    --button-collor: #4d5ae5;
+    --button-background-color: #F4F4FD;
+
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -48,4 +51,19 @@ body {
     letter-spacing: 0.02em;
     color: var(--address-color);
 
+}
+.bttn-all {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--button-collor);
+    background-color: var(--button-background-color);
+}
+.bttn-all:hover,
+.bttn-all:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
 }
