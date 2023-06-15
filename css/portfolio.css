@@ -5,7 +5,6 @@
     --address-color: #434455;
     --button-collor: #4d5ae5;
     --button-background-color: #F4F4FD;
-    --footer-color: #F4F4FD;
 }
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
@@ -88,6 +87,6 @@ body {
 }
 .footer-text {
     line-height: 1.5;
-    color: var(--footer-color);
+    color: #f4f4fd;
     letter-spacing: 0.02em;
 }
