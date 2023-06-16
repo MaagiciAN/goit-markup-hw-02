@@ -8,12 +8,19 @@
     --address-color: #434455;
     --section-background-color: #2e2f42;
     --footer-color: #F4F4FD;
+    --body-color: #434455;
+        --fist-logo-color: #4d5ae5;
+        --second-logo-color: #2e2f42;
+        --address-color: #434455;
+        --button-collor: #4d5ae5;
+        --button-background-color: #F4F4FD;
 }
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;  
-}
+    background-color: #FFFFFF;
+    color: var(--body-color);
+    }
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800; 
@@ -50,6 +57,10 @@ body {
     letter-spacing: 0.02em;
     color: var(--address-color);
 
+}
+.header-span-logo {
+    color: var(--second-logo-color);
+    color: #f4f4fd;
 }
 .list {
     list-style: none;
@@ -145,4 +156,35 @@ body {
     line-height: 1.5;
     color: var(--footer-color);
     letter-spacing: 0.02em;
+}
+.footer-item {
+    background-color: var(--second-logo-color);
+}
+.bttn-all:hover,
+.bttn-all:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.image-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-logo-color);
+}
+.image-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--body-color);
+}
+.bttn-all {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--button-collor);
+    background-color: var(--button-background-color);
 }
